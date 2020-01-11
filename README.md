@@ -12,3 +12,5 @@ Run
 cd precicount
 npm start
 ```
+
+Fun!
