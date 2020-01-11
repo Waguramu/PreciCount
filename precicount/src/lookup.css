@@ -1,0 +1,23 @@
+.lookup {
+    text-align: center;
+}
+
+.lookup-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.lookup-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.lookup-link {
+    color: #61dafb;
+}
