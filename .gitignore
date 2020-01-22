@@ -4,6 +4,7 @@
 precicount/node_modules
 precicount/.pnp
 .pnp.js
+backend/node_modules
 
 # testing
 precicount/coverage
