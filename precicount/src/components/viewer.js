@@ -1,7 +1,7 @@
 import React from 'react';
 import PanZoom from 'react-image-leaflet';
 import EventListener from 'react-event-listener';
-import Typography from "./album";
+import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 

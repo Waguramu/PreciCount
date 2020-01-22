@@ -77,6 +77,9 @@ const useStyles = makeStyles(theme => ({
             display: 'none',
         },
     },
+    appBar: {
+        flexGrow: 1
+    }
 }));
 
 export default function SearchAppBar() {
@@ -163,7 +166,7 @@ export default function SearchAppBar() {
 
     return (
         <div className={classes.grow}>
-            <AppBar position="static">
+            <AppBar position="static" className={classes.appBar}>
                 <Toolbar>
                     <IconButton
                         edge="start"

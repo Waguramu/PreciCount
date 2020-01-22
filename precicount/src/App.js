@@ -6,6 +6,7 @@ import "./App.css";
 import AppBar from "./components/appbar";
 import Album from "./components/album";
 import Viewer from "./components/viewer";
+import Counter from "./components/counter";
 
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
                 <Switch>
                     <Route exact path="/" component={Album} />
                     <Route exact path="/viewer" component={Viewer} />
+                    <Route exact path="/counter" component={Counter} />
                 </Switch>
             </React.Fragment>
         );
