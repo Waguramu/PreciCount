@@ -1,0 +1,39 @@
+{
+    "name": "precicount",
+    "version": "0.0.1",
+    "description": "PreciCount REST services",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Waguramu/PreciCount/tree/master/backend"
+    },
+    "keywords": [
+        "deepjurist"
+    ],
+    "author": "precicount",
+    "license": "ISC",
+    "bugs": {
+        "url": "not-available"
+    },
+    "homepage": "https://github.com/Waguramu/PreciCount",
+    "dependencies": {
+        "bcrypt-nodejs": "^0.0.3",
+        "body-parser": "^1.15.0",
+        "cors": "^2.7.1",
+        "express": "^4.13.4",
+        "express-busboy": "^7.0.1",
+        "express-unless": "^0.3.0",
+        "jwt-simple": "^0.5.0",
+        "lodash": "^4.17.15",
+        "mongoose": "^5.5.1",
+        "multer": "^1.3.0",
+        "passport": "^0.3.2",
+        "passport-jwt": "^2.0.0",
+        "q": "^1.5.0",
+        "supertest": "^1.2.0",
+        "underscore": "^1.8.3"
+    }
+}
