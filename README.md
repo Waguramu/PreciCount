@@ -81,5 +81,6 @@ npm start
 Run 
 ```
 cd precicount
+npm install
 npm start
 ```
