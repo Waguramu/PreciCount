@@ -1,7 +1,7 @@
 ![precicount!](/docs/img/precicount.png?raw=true "precicount")
 
 # PreciCount
-AI-enabled Automatic Cells Counting Tool
+DL-enabled Automatic Cells Counting Tool
 
 ### Installation
 
