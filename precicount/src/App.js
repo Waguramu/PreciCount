@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Component } from "react";
+import {Switch, Route} from 'react-router-dom'
+import "./App.css";
+import AppBar from "./components/appbar";
+import Album from "./components/album";
+import Viewer from "./components/viewer";
+import Counter from "./components/counter";
+
+
+class App extends Component {
+    render() {
+        return (
+            <React.Fragment>
+                <AppBar />
+                <Switch>
+                    <Route exact path="/" component={Album} />
+                    <Route exact path="/viewer" component={Viewer} />
+                    <Route exact path="/counter" component={Counter} />
+                </Switch>
+            </React.Fragment>
+        );
+    }
 }
 
 export default App;

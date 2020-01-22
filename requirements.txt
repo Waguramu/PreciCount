@@ -1,0 +1,11 @@
+jupyter
+tensorflow-gpu
+numpy
+pandas
+sklearn
+matplotlib
+opencv-python
+scipy
+tqdm
+seaborn
+pillow==6.2.1
