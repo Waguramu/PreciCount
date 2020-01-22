@@ -1,5 +1,5 @@
 # PreciCount Express Server
-Backend for AI-enabled Automatic Cells Counting Tool
+Backend for DL-enabled Automatic Cells Counting Tool
 
 ## Requirements
 
