@@ -28,6 +28,7 @@ sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 ---
 
 Install [Node.js](https://nodejs.org/en/download/) for SPA capabilities.
+
 ---
 
 To run the project, you need to use Python 3.6+. 
