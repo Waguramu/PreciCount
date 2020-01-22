@@ -82,5 +82,3 @@ Run
 cd precicount
 npm start
 ```
-
-
