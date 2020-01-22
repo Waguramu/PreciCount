@@ -1,5 +1,5 @@
 # PreciCount React App
-Frontend for AI-enabled Automatic Cells Counting Tool
+Frontend for DL-enabled Automatic Cells Counting Tool
 
 ## Requirements
 
