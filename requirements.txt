@@ -8,4 +8,4 @@ opencv-python
 scipy
 tqdm
 seaborn
-pillow==6.2.1
+pillow==8.3.2
